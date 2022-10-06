@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+}
+h2{
+    color: white;
+  -webkit-text-stroke: 1px green;
+}
+h3 {
+    color: white;
+    -webkit-text-stroke: 0.5px navy;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    text-indent: 2em;
+    color: navy;
+    background-color: lightskyblue;
+    border: 3px solid red;  
+}
+p.margin {  
+    margin: 50px 100px 150px 200px;  
+    }  
+p.padding {  
+    padding: 100px 100px 150px 50px;  
+}  
