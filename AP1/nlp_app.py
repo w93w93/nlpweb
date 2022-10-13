@@ -1,5 +1,5 @@
 import streamlit as st
-import multilanDetect as md
+import multilanDetect2 as md
 st.set_page_config(
     page_title='小小語言試劑',
     layout='wide'
