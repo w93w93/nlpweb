@@ -41,7 +41,7 @@ if want_to_complete == '多國語言偵測器':
     Swedish, Arabic, Malayalam, Hindi, Tamil, Telugu
     """)
     # search bar
-    query = st.text_input("輸入一段話：", default="Καλώς ήλθατε στο blog του PY Tsai")
+    query = st.text_input("輸入一段話：", placeholder="Καλώς ήλθατε στο blog του PY Tsai")
 
     result=""
     if st.button("Predict"):

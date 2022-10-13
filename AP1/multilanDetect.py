@@ -1,10 +1,10 @@
 import pickle
 
-filename = "model/language_predictor.pkl"
+filename = "./model/language_predictor.pkl"
 loaded_model = pickle.load(open(filename, 'rb'))
-encodename = "model/encoder.pkl"
+encodename = "./model/encoder.pkl"
 le = pickle.load(open(encodename, 'rb'))
-count_vect_name = "model/vectorize.pkl"
+count_vect_name = "./model/vectorize.pkl"
 cv = pickle.load(open(count_vect_name, 'rb'))
 
 def load_predict(text):
